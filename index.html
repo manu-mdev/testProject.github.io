@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Project</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="mainContainer">
-        <div class="banner">
-            <div class="navbar">
+        <div class="banner" id="home">
+            <div class="navbar" >
                 <img src="./picture/logo9.png" alt="bird-colourful-logo" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="content">
@@ -37,7 +37,7 @@
 
         <!-- ----------------------About Section---------------------- -->
 
-        <div class="aboutSection">
+        <div class="aboutSection" id="about">
             <div class="aboutBanner">
                 About
 
@@ -115,7 +115,7 @@
 
         <!-- ----------------------Services Section---------------------- -->
 
-        <div class="servicesSection">
+        <div class="servicesSection" id="services">
             <div class="servicesBanner">
                 Services
             </div>
@@ -185,7 +185,7 @@
             </div>
 
 
-            <div class="contactSection">
+            <div class="contactSection" id="contact">
                 <h2>Contact Us here</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti similique amet cum veniam hic
                     doloremque eaque ipsum laboriosam aut <br> accusamus, voluptatum magni ea nemo fugiat nam quos
@@ -243,6 +243,8 @@
 
     </div>
 
+
+    <script src="/script.js"></script>
 
 
 </body>
